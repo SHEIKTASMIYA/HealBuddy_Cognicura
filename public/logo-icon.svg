@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <defs>
+    <linearGradient id="heartGrad" x1="20" y1="20" x2="180" y2="180" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0F766E"/>
+      <stop offset="100%" stop-color="#2DD4BF"/>
+    </linearGradient>
+    <linearGradient id="leafGrad" x1="120" y1="10" x2="170" y2="70" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#34D399"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Heart Base Outline with Top Right Opening for Sprout -->
+  <path d="M 100,168 C 45,130 22,95 22,62 C 22,35 42,18 68,18 C 84,18 94,26 100,35 C 106,26 116,18 132,18 C 146,18 158,24 165,34" 
+        stroke="url(#heartGrad)" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- ECG Pulse Waveform -->
+  <path d="M 16,102 L 68,102 L 78,72 L 92,126 L 106,86 L 116,102 L 184,102" 
+        stroke="#0F766E" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Lower Heart Right Curve Continuation -->
+  <path d="M 100,168 C 135,144 162,118 168,98" 
+        stroke="url(#heartGrad)" stroke-width="12" stroke-linecap="round"/>
+
+  <!-- Sprouting Twin Leaves at Top Right -->
+  <path d="M 148,46 C 148,22 168,12 182,14 C 182,30 166,46 148,46 Z" fill="url(#leafGrad)"/>
+  <path d="M 136,36 C 132,18 144,8 158,10 C 158,24 146,36 136,36 Z" fill="#34D399"/>
+</svg>
