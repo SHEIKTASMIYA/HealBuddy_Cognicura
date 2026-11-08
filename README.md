@@ -1,4 +1,4 @@
-# HealBuddy — Frontend
+# HealBuddy 
 
 A mobile-first React frontend for HealBuddy, connecting to your existing
 Supabase project (auth, database, storage). This app does **not** create or
